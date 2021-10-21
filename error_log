@@ -1,0 +1,8 @@
+[09-Oct-2021 09:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home3/zfacrrie/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home3/zfacrrie/public_html/wp-content/plugins/elementor/core/wp-api.php(36): Elementor\Core\Wp_Api->get_plugins()
+#1 /home3/zfacrrie/public_html/wp-content/plugins/elementor/modules/system-info/reporters/plugins.php(44): Elementor\Core\Wp_Api->get_active_plugins()
+#2 /home3/zfacrrie/public_html/wp-content/plugins/elementor/modules/system-info/reporters/plugins.php(75): Elementor\Modules\System_Info\Reporters\Plugins->get_plugins()
+#3 /home3/zfacrrie/public_html/wp-content/plugins/elementor/modules/system-info/module.php(298): Elementor\Modules\System_Info\Reporters\Plugins->is_enabled()
+#4 /home3/zfacrrie/public_html/wp-content/plugins/elementor/modules/system-info/module.php(255): Elementor\Modules\System_Info\Module->create_reporter(Array)
+#5 /home3/zfacrrie/public_html/wp-content/plugins/elementor/includes/tracker.php(228): Elementor\Modules in /home3/zfacrrie/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
